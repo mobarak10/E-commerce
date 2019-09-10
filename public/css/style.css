@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+    background: #F1F1F1;
+}
+
+/* start product css */
+.product-item{
+
+	background: #dcf4fc;
+}
+.child-rows{
+
+	padding-left: 20px;
+	border: 1px solid #dfdfdf;
+	background: #EAEAEA;
+}
+
+.child-rows a.list-group-item{
+
+	border-left: 0px!important;
+}
+
+.list-group-item.active {
+
+    z-index: 2;
+    color: #fff;
+    background-color: #a490d7;
+    border-color: #a490d7;
+    border-radius: 0;
+}
+/* end product css */
+
+/* start navbar css */
+
+.mr-auto, .mx-auto {
+
+    margin-top: 12px;
+    margin-bottom: -10px;
+}
+
+/* end navbar css */
+
+
+/**
+@overrite css
+**/
+.bg-light {
+
+    background-color: #a490d7!important;
+}
+
+/* .margin-top-20{
+
+	margin-top: 10px;
+} */
+.feature-img{
+
+	max-height: 200px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.pointer:hover{
+    background: #EAEAEA;
+}
+
+.footer-bottom{
+
+	padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: #a490d7;
+    margin-right: 10px;
+    /* position: absolute; */
+}
+
+.margin-top-20 {
+    margin-top: 10px;
+    min-height: 480px;
+}
+
+@media only screen and (max-width:600px) {
+  /* For tablets: */
+    .margin-top-20 {
+        margin-top: 10px;
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  .margin-top-20 {
+        margin-top: 10px;
+        min-height: 250px;
+    }
+}
+
+.img-respponsive{
+    width: 100%;
+    height: auto;
+}
+
+
+/* .list-group-items {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+ */
+
+ .hidden{
+    display: none;
+ }
